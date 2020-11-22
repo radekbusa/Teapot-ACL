@@ -13,9 +13,12 @@ BaselineOfTeapotACL >> baseline: spec [
 	spec
 		for: #common
 		do: [
-			spec configuration: 'Teapot' with: [ spec versionString: #'stable'; repository: 'http://smalltalkhub.com/mc/zeroflag/Teapot/main'
+			"deps"
+			spec baseline: 'Teapot' with: [ spec repository: 'github://zeroflag/Teapot:v2.6.0/source' ].
+			
+			"project packages"
+			spec package: 'TeapotACL' with: [ spec requires: #('Teapot') ].
 		].
-	].
 
 ]
 
