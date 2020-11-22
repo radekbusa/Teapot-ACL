@@ -59,8 +59,8 @@ Tested in Pharo 7, 8 and 9.
 
 ## 👨‍💻 Author
 Radek Busa is the author and maintainer of this project.
-* Tech blog: [https://medium.com/@radekbusa](https://medium.com/@radekbusa)
-* Hire me for your next Smalltalk project: [www.radekbusa.eu](www.radekbusa.eu)
+* Tech blog: [https://medium.com/@radekbusa](www.medium.com/@radekbusa)
+* Hire me for your next Smalltalk project: [http://www.radekbusa.eu](www.radekbusa.eu)
 
 > "I love building enterprise-grade software products in no time and Pharo greatly contributes to that with its amazing debugger, test-driven environment and other great stuff, such as refactoring tools. *My vision is to build libraries for ultra-productive enterprise microservice development with minimalistic and easy-to-grasp APIs for Smalltalk in 2020s.*"
 
